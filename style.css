@@ -163,7 +163,6 @@
       color: whitesmoke;
     }
 
-    /* ===== Responsive Styles for Mobile ===== */
     @media (max-width: 576px) {
       .music-img img {
         width: 60px;
@@ -195,7 +194,6 @@
       }
     }
 
-    /* ===== Playlist Expanded Style ===== */
     .playlist-expanded {
       background-color: rgba(255, 255, 255, 0.03);
       border: 1px solid rgba(255, 255, 255, 0.08);
@@ -211,7 +209,6 @@
       animation: fadeInUp 0.6s ease;
     }
 
-    /* ===== Track Item Inside Playlist ===== */
     .playlist-track {
       background-color: rgba(255, 255, 255, 0.05);
       padding: 8px 12px;
@@ -225,7 +222,6 @@
       background-color: rgba(255, 255, 255, 0.1);
     }
 
-    /* ===== Fade-in Animation ===== */
     @keyframes fadeInUp {
       from {
         opacity: 0;
