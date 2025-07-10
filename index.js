@@ -22,7 +22,6 @@ $(document).ready(function () {
   const $shuffleBtn = $("#shuffleBtn");
   const $repeatBtn = $("#repeatBtn");
 
-  // Render main track list
   allTracks.forEach(track => {
     $trackList.append(`
       <div class="col-6 col-lg-3">
@@ -156,19 +155,16 @@ function seek(e) {
     return `${min}:${sec < 10 ? "0" + sec : sec}`;
   }
 
-  // زر Shuffle
   $shuffleBtn.click(function () {
     isShuffle = !isShuffle;
     $(this).toggleClass("btn-success btn-outline-light");
   });
 
-  // زر Repeat
   $repeatBtn.click(function () {
     isRepeat = !isRepeat;
     $(this).toggleClass("btn-success btn-outline-light");
   });
 
-  // Playlist section
   const playlists = [
     {
       title: "🎧 Chill Vibes",
